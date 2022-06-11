@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <header>
+    <h4>Component and Data Binding.</h4>
+  </header>
+  <section>
+    <app-game-control 
+    (startplayingGame)='startplayingGame($event)'
+    (resetGamevalue)='resetGame()'>
+  </app-game-control>
+  </section>
+  <section>
+    <app-odd-numbers
+    *ngFor='let oddNumber of oddNumbers'
+    [oddNumbers]='oddNumber'
+    >
+    </app-odd-numbers>
+    <app-even-numbers
+    *ngFor='let evenNumber of evenNumbers'
+    [evenNumbers]='evenNumber'>
+    </app-even-numbers>
+  </section>
+</div>

@@ -1,0 +1,44 @@
+main {
+  height: 200px;
+}
+main p {
+  color: rgb(4, 23, 29);
+  line-height: 3;
+  padding-left: 1em;
+}
+
+button {
+  margin: 2px 40px;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  border: 1px solid rgb(32, 30, 30);
+}
+
+button:hover {
+  color: rgb(42, 115, 224);
+  box-shadow: 0 0 20px rgb(181, 241, 221);
+}
+
+.start:hover {
+  background-color: rgb(117, 226, 117);
+  border: 2px solid green;
+  width: 80px;
+  height: 40px;
+}
+
+.pause:hover {
+  background-color: rgb(245, 245, 180);
+  border: 2px solid yellow;
+  width: 80px;
+  height: 40px;
+}
+
+.reset:hover {
+  background-color: rgb(238, 156, 156);
+  border: 2px solid red;
+  width: 80px;
+  height: 40px;
+}
